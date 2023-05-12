@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to=no" >
+		<title>HostWEB</title>
+		<!--Framework Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/estilos3.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-icons.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="principal">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+					<div class="container-fluid">
+						<a href="#" class="navbar-brand"></a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse2">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarCollapse2">
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								<li class="nav-item">
+									<a href="index.html" class="nav-link">Home</a>
+								</li>
+								<li class="nav-item">
+									<a href="planes.html" class="nav-link">planes</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Acceso</a>
+									<ul class="dropdown-menu login">
+										<li>
+											<div class="row">
+												<div class="col-12">
+													<form>
+														<div>
+															<label class="label_login">Accede a tu cuenta</label>	
+															<a href="#" class="btn btn-primary btn-sm disabled">Usuario</a>
+														</div>
+														<div>
+															<img src="img/avatar-1.png" class="img_log">
+														</div>
+														<div class="form-group">
+															<div class="input-group mb-2">
+																<span class="input-group-text"><i class="fa fa-user fa-2x"></i></span>
+																<input class="form-control" type="text" placeholder="UserName">
+															</div>
+														</div>
+														<div class="form-group">
+															<div class="input-group mb-2">
+																<span class="input-group-text"><i class="fa fa-lock fa-2x"></i></span>
+																<input class="form-control" type="password" placeholder="Password">
+															</div>
+															<div class="help-block">
+																<a href="#">¿Olvidaste la contraseña?</a>
+															</div>
+														</div>
+														<div class="form-group">
+															<div class="d-grid">
+																<button type="submit" class="btn btn-primary btn-block">Entrar</button>
+															</div>
+														</div>
+													</form>		
+												</div>	
+											</div>
+										</li>
+									</ul>
+								</li>
+								
+							</ul>
+							<form class="d-flex">
+								<input type="search" placeholder="Search" class="form-control me-3">
+								<button type="submit" class="btn btn-outline-success">Buscar</button>
+							</form>
+						</div>
+					</div>				
+				</nav>
+
+				<!-- PARTE PRINCIPAL -->
+				<form>
+                    <div>
+                      <label for="card-number">Número de tarjeta:</label>
+                      <input type="text" id="card-number" name="card-number" required>
+                    </div>
+                    <div>
+                      <label for="card-name">Nombre en la tarjeta:</label>
+                      <input type="text" id="card-name" name="card-name" required>
+                    </div>
+                    <div>
+                      <label for="expiration-date">Fecha de expiración:</label>
+                      <input type="month" id="expiration-date" name="expiration-date" required>
+                    </div>
+                    <div>
+                      <label for="cvv">CVV:</label>
+                      <input type="text" id="cvv" name="cvv" required>
+                    </div>
+                    <div>
+                      <label for="amount">Monto a pagar:</label>
+                      <input type="number" id="amount" name="amount" required>
+                    </div>
+                    <button type="submit" class="button-comprar">Pagar</button>
+                  </form>
+                  
+
+
+			</div>	
+		</div> <!--Fin del cantainer -->
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<!-- JQuery JS -->
+		<script type="text/javascript" src="css/bootstrap/js/bootstrap.bundle.js" ></script>
+	</body>
+</html>
