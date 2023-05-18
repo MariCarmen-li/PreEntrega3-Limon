@@ -1,0 +1,18 @@
+@import "../base/variables";
+@import "../base/listas";
+
+.caja {
+    background-color: $bg-caja;
+    margin: $margin-caja;
+    padding: $padding-caja ;
+    border-radius: $border-radiuscaja;
+  }
+  .link {
+    text-decoration: none;
+    color: nth($colores: 2 );
+    border-bottom: $border-bottomlink;
+    font-size: 1.3em;
+  }
+  .icono {
+    color: nth($colores: 4 );
+  }

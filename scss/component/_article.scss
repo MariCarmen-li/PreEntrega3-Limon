@@ -1,0 +1,12 @@
+@import "../base/variables";
+
+article {
+    border: $border-article;
+    padding: $padding-article;
+    margin-bottom: $margin-formarticle;
+    background: $bg-article;
+  
+    footer {
+      text-align: right;
+    }
+  }

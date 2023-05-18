@@ -1,0 +1,17 @@
+@import "../base/variables";
+@import "../base/listas";
+
+#seccion{
+	float: left;
+	width: 660px;
+	margin: $margin-formseccion;
+}
+  article{
+	border: $border-article;
+	padding: $padding-article;
+	margin-bottom: $margin-formarticle;
+	background: $bg-article;
+}
+  time {
+    color: nth($colores: 3 );
+  }

@@ -1,0 +1,38 @@
+@import "../base/variables";
+
+.tabla-precio {
+    border: $border-bottom;
+    max-width: 350px;
+    min-height: 300px;
+    border-radius: $border-radiustprecio;
+    margin: $margin-table;
+    background-color: $bg-ctable;
+    box-shadow: $box-shadowtprecio;
+    display: $display-gn;
+    padding: $padding-tprecio;
+  
+    ul{
+      list-style: none;
+      display: $display-gn;
+      padding: $padding-tprecioul;
+      margin: $margin-tableul;
+  
+      li{
+        display: $display-gn;
+        padding: 8$padding-tprecioulli;
+        border-bottom: $border-bottom;
+        margin-left: $margin-tableulli;
+      }
+    }
+
+    a{
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top: $margin-tableprecio;
+    }
+  
+    span {
+      display: $display-gn;
+    }
+  }
+  

@@ -1,0 +1,66 @@
+@import "../base/variables";
+@import "../base/listas";
+
+.img_log {
+  width: 96px;
+  height: 96px;
+  margin: $margin-img;
+  display: $display-gn;
+  border-radius: $border-radiusimg;
+}
+
+
+.help-block {
+  font-size: 14px;
+  text-align: right;
+}
+
+form {
+    width: 400px;
+    margin: $margin-form;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-group {
+    margin-bottom: $margin-tableprecio;
+  }
+
+  label {
+    display: $display-gn;
+    margin-bottom: $margin-formbottom;
+  }
+  
+  input 
+    &[type="text"], &[type="month"], &[type="number"] {
+    padding: $padding-finput;
+    width: 100%;
+    border: $border-bottom;
+    border-radius: $border-radiusform;
+  }
+  
+  .button-comprar{
+    padding: $padding-fbcompreg;
+    background-color: $bg-bcomreg;
+    color: nth($colores: 5 );
+    border: none;
+    border-radius: $border-radiusform;
+    cursor: pointer;
+  }
+  
+  .button-comprar:hover {
+    background-color: $bg-hcomreg;
+  }
+  
+  .button-registro{
+    padding: $padding-fbcompreg;
+    background-color: $bg-bcomreg;
+    color: nth($colores: 5 );
+    border: none;
+    border-radius: $border-radiusform;
+    cursor: pointer;
+  }
+  
+  .button-registro:hover {
+    background-color: $bg-hcomreg;
+  }
+  

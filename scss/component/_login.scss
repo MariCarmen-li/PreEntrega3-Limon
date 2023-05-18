@@ -1,0 +1,12 @@
+@import "../base/variables";
+
+.label_login {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .login {
+    min-width: 300px;
+    padding: $padding-login;
+    overflow: hidden;
+    background-color: $bg-login;
+  }

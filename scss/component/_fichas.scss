@@ -1,0 +1,56 @@
+@import "../base/variables";
+@import "../base/listas";
+
+.fondo-bk-t {
+    background-color: $bg-bkyt;
+    color: nth($colores: 1 );
+    border-radius: $border-radiusfondo;
+  }
+  
+  .fondo-bk {
+    background-color: $bg-bkyt;
+    color:  nth($colores: 1 );
+  }
+.fondo-gr-t {
+    background-color: $bg-fgr;
+    color:  nth($colores: 1 );
+    border-radius: $border-radiusfondo;
+  }
+  
+  .fondo-gr {
+    background-color: $bg-fgr;
+    color: nth($colores: 1 );
+  }
+  
+  .fondo-rj-t {
+    background-color: $bg-frj;
+    color: nth($colores: 1 );
+    border-radius: $border-radiusfondo;
+  }
+  
+  .fondo-rj {
+    background-color: $bg-frj;
+    color: nth($colores: 1 );
+  }
+  
+  .fondo-az-t {
+    background-color: $bg-az;
+    color: nth($colores: 1 );
+    border-radius: $border-radiusfondo;
+  }
+  
+  .fondo-az {
+    background-color: $bg-az;
+    color: nth($colores: 1 );
+  }
+
+  .titulo {
+    padding: $padding-titulo;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .precio {
+    padding: $padding-precio;
+  }
